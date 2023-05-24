@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasilitas SDN Tengah 08</title>
+    <link rel="stylesheet" href="fasilitas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slide active">
+        <img src="WhatsApp Image 2023-05-22 at 10.25.14.jpeg" alt="">
+        <div class="info">
+          <h2>Lab Komputer</h2>
+          <p>Lab Komputer merupakan fasilitas sekolah untuk menunjang proses terlaksananya belajar mengajar di sekolah. Lab Komputer sangat penting untuk proses belajar mengajar siswa karena Lab Komputer yang terhubung dengan internet dapat membantu para siswa dan siswi untuk mencari informasi untuk kebutuhan pembelajaran.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="WhatsApp Image 2023-05-23 at 08.27.38.jpeg" alt="">
+        <div class="info">
+          <h2>Mushola</h2>
+          <p>Peranan Mushola pada saat ini di sekolah sangat berperan untuk membina generasi yang madani, karena Mushola di samping sebagai sarana ukhuwah islamiyah juga sebagai sarana membantu pendidikan non formal yang memberi dampak positif kepada warga Sekolah dan masyarakat di lingkungan sekolah pada umumnya.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="WhatsApp Image 2023-05-22 at 10.32.30.jpeg" alt="">
+        <div class="info">
+          <h2>Perpustakaan</h2>
+          <p>Secara terperinci manfaat perpustakaan sekolah yaitu, dapat menimbulkan kecintaan, kesadaran dan kebiasaan siswa terhadap membaca, dapat memperkaya pengalaman belajar siswa dapat menambah kebiasaan belajar mandiri yang akhirnya membuat siswa mampu untuk belajar mandiri.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="WhatsApp Image 2023-05-23 at 08.38.38.jpeg" alt="">
+        <div class="info">
+          <h2>Kantin & Koperasi</h2>
+          <p>Kantin sekolah memiliki peranan penting dalam mewujudkan pesan- pesan kesehatan dan dapat menentukan perilaku makan siswa sehari- hari melalui penyediaan makanan jajanan di sekolah. Dan koperasi, murid bisa mendapatkan keperluan sekolah dengan mudah dan harga yang terjangkau bagi pelajar.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="WhatsApp Image 2023-05-23 at 08.43.43.jpeg" alt="">
+        <div class="info">
+          <h2>Lapangan Sekolah</h2>
+          <p>Lapangan di sekolah merupakan ruang terbuka yang memiliki banyak fungsi, seperti, Upacara, Mengumpulkan para siswa dan untuk berolahraga.</p>
+        </div>
+      </div>
+      <div class="navigation">
+        <i class="fas fa-chevron-left prev-btn"></i>
+        <i class="fas fa-chevron-right next-btn"></i>
+      </div>
+      <div class="navigation-visibility">
+        <div class="slide-icon active"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+        <div class="slide-icon"></div>
+		
+  <div class="vertical-center">
+    <button>Centered Button</button>
+      </div>
+    </div>
+	<button onclick="goBack()">Kembali Ke Beranda</button>
+		<script type="text/javascript">
+    const slider = document.querySelector(".slider");
+    const nextBtn = document.querySelector(".next-btn");
+    const prevBtn = document.querySelector(".prev-btn");
+    const slides = document.querySelectorAll(".slide");
+    const slideIcons = document.querySelectorAll(".slide-icon");
+    const numberOfSlides = slides.length;
+    var slideNumber = 0;
+
+    //image slider next button
+    nextBtn.addEventListener("click", () => {
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+      slideIcons.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+      });
+
+      slideNumber++;
+
+      if(slideNumber > (numberOfSlides - 1)){
+        slideNumber = 0;
+      }
+
+      slides[slideNumber].classList.add("active");
+      slideIcons[slideNumber].classList.add("active");
+    });
+
+    //image slider previous button
+    prevBtn.addEventListener("click", () => {
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+      slideIcons.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+      });
+
+      slideNumber--;
+
+      if(slideNumber < 0){
+        slideNumber = numberOfSlides - 1;
+      }
+
+      slides[slideNumber].classList.add("active");
+      slideIcons[slideNumber].classList.add("active");
+    });
+
+    //image slider autoplay
+    var playSlider;
+
+    var repeater = () => {
+      playSlider = setInterval(function(){
+        slides.forEach((slide) => {
+          slide.classList.remove("active");
+        });
+        slideIcons.forEach((slideIcon) => {
+          slideIcon.classList.remove("active");
+        });
+
+        slideNumber++;
+
+        if(slideNumber > (numberOfSlides - 1)){
+          slideNumber = 0;
+        }
+
+        slides[slideNumber].classList.add("active");
+        slideIcons[slideNumber].classList.add("active");
+      }, 4000);
+    }
+    repeater();
+
+    //stop the image slider autoplay on mouseover
+    slider.addEventListener("mouseover", () => {
+      clearInterval(playSlider);
+    });
+
+    //start the image slider autoplay again on mouseout
+    slider.addEventListener("mouseout", () => {
+      repeater();
+    });
+	function goBack() {
+        window.history.back();
+    }
+    </script>
+  </body>
+</html>

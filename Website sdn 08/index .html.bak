@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Web SDN Tengah 08</title>
+
+<link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+
+<div class="top">
+
+<div class='bghitam'></div>
+
+<div class="menu">
+
+<a href=""><img src="logo-Tut-Wuri-Handayani-1.png"></a>
+
+<ul>
+
+<li><a href="">BERANDA</a></li>
+
+<li><a href="visimisi.html">VISI & MISI</a></li>
+
+<li><a href="">GURU & KARYAWAN</a></li>
+
+<li><a href="">GALLERY</a></li>
+
+<li><a href="">FASILITAS</a></li>
+
+</ul>
+
+</div>
+
+<div class="text">
+
+<h1>Official Website SDN TENGAH 08<br>by SDN Tengah 08</h1>
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+<div class="organisasi">
+
+<h1>STRUKTUR ORGANISASI</h1>
+
+<p>Struktur organisasi di SDN TENGAH 08</p>
+
+<div class="grid2">
+
+
+
+<div class="struktur">
+
+<img src="D:\Website sdn 08\download.jpeg">
+
+<h2>NANIK UTARI,S.Pd,MM</h2>
+
+<p><b>KEPALA SEKOLAH</b></p>
+
+<p>menjabat kepala sekolah</p>
+
+</div>
+
+<div class="struktur">
+
+<img src="D:\Website sdn 08\download.jpeg">
+
+<h2>LINASTUTI,S.Pd</h2>
+
+<p><b>WAKA KURIKULUM</b></p>
+
+<p>Menjabat wakil kepala sekolah kurikulum</p>
+
+</div>
+
+<div class="struktur">
+
+<img src="D:\Website sdn 08\download.jpeg">
+
+<h2>LENA,S.Pd</h2>
+
+<p><b>WAKA KESISWAAN</b></p>
+
+<p>menjabat wakil kepala sekolah kesiswaan</p>
+
+</div>
+
+<div class="struktur">
+
+<img src="D:\Website sdn 08\download.jpeg">
+
+<h2>KRISTIN ANGGRAINI,SS</h2>
+
+<p><b>UNIT PERPUSTAKAAN</b></p>
+
+<p>menjabat unit perpustakaan</p>
+
+</div>
+
+</div>
+
+<div class="struktur">
+
+<img src="D:\Website sdn 08\download.jpeg">
+
+<h2>SIHAT OKTOROI MANULANG</h2>
+
+<p><b>KOMITE SEKOLAH</b></p>
+
+<p>menjabat komite sekolah</p>
+
+</div>
+
+
+
+</div>
+
+<div class="subscribe">
+
+<h1>Official Youtube SDN Tengah 08</h1>
+
+<a href='http://www.youtube.com/@SDNTENGAH08PAGI'>Klik -> SUBSCRIBE </a>
+
+</div>
+
+<div class="berita">
+
+<h1>BERITA TERBARU</h1>
+
+<p>Menyajikan informasi di SDN Tengah 08</p>
+
+<div class="grid4">
+
+<div class="grid3">
+
+<img src="206273385_503144897590883_6794742038551553224_n.jpg" width="200" height="230">
+
+<p>BERITA TERBARU</p>
+
+
+<p>Pastikan kalian sudah lapor diri dengan menggunakan login di situs PPDB.JAKARTA.GO.ID dan mengklik tombol LAPOR DIRI Cetak dan Simpan bukti lapor dirinya ya !</p>
+
+<a href="https://jakarta.siap-ppdb.com/">READ MORE...</a>
+
+</div>
+
+<div class="grid3">
+
+<img src="img/berita2.jpg">
+
+<p>BERITA TERBARU</p>
+
+<h2>SPP SMK Negeri dan Swasta di Jawa Timur (Contoh Postingan)</h2>
+
+<p>Surabaya – Kebijakan SPP gratis di Jawa Timur tidak hanya untuk SMA dan SMK Negeri. Kebijakan yang akan dimulai bulan Juli ini juga berlaku untuk sekolah swasta. Namun, ada regulasi yang berbeda. Kepala Dinas Pendidikan Jatim Saiful Rachman mengatakan kebijakan</p>
+
+<a href="">READ MORE...</a>
+
+</div>
+
+<div class="grid3">
+
+<img src="img/berita3.jpg">
+
+<p>BERITA TERBARU</p>
+
+<h2>Pengumuman SBMPTN Bagi siswa (Contoh Postingan)</h2>
+
+<p>Menjelang tahun ajaran baru, berbagai kesibukan mulai tampak terjadi. Kesibukan karena mempersiapkan berbagai kebutuhan untuk memasuki sekolah baru, ujian naik kelas, ujian nasional bahkan persiapan tes masuk perguruan tinggi idaman. Hari-hari ini pihak sekolah terutama</p>
+
+<a href="">READ MORE...</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="kontak">
+
+<div class="des">
+
+<h1>Pusat Informasi</h1>
+
+<h2>KANTOR SDN TENGAH 08</h2>
+
+<p>Jl. H. Ali, RT.4/RW.4, Kp.Tengah, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta, 13540, Indonesia</p>
+
+<h2>Kontak kami</h2>
+
+<p>Jumat , 07.00 WIB - 14.00 WIB SDN TENGAH 08</p>
+
+</div>
+
+</div>
+
+<div class="footer"><p>© Copyright 2023 - Dibuat oleh <a href="">SDN TENGAH 08</a> Instagram: Klik disini -> <a href="https://instagram.com/sdn.tengah08?igshid=YmMyMTA2M2Y=">@sdn.tengah08</a></p></div>
+
+
+
+</body>
+
+</html>
